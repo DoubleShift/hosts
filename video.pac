@@ -3,6 +3,15 @@
   only for study purposes and its authors and service providers
   take no responsibilities for any consequences.
 */
+
+var BLACK_HOLE = "PROXY 180.97.33.108:80";
+var DIRECT = "DIRECT"
+
+function n(h, r, m) { return isInNet(h, r, m); }
+function s(u, r) { return shExpMatch(u, r); }
+function d(h, r){ return dnsDomainIs(h, r); }
+
+
 function _check_regex_list(i, o) {
     var c;
     for (c = 0; c < i.length; c++) if (i[c].test(o)) return ! 0;
@@ -15,6 +24,19 @@ function _find_proxy(i, o, c, p) {
     return _check_patterns(i.white, o, c, p) ? "DIRECT": _check_patterns(i.proxy, o, c, p) ? _proxy_str: "DIRECT"
 }
 function FindProxyForURL(i, o) {
+  
+      var u = i.toLowerCase();
+    var h = o.toLowerCase();
+
+
+
+if( d(h, "ad.api.3g.youku.com") || d(h, "statis.api.3g.youku.com") ){ return BLACK_HOLE;}
+if( d(h, "agn.aty.sohu.com") || d(h, "mmg.aty.sohu.com") ){ return BLACK_HOLE;}
+if( ( d(h, "n.mark.letv.com") && s(u, "*/m3u8api/*") ) || d(h, "irs01.com") ){ return BLACK_HOLE;}
+if( d(h, "bs.da.hunantv.com" ) || d(h, "g.cn.miaozhen.com" ) ){ return BLACK_HOLE;}
+if( d(h, "lives.l.qq.com" ) || d(h, "vqq.admaster.com.cn") ) {return BLACK_HOLE; }
+if( d(h, "ad.api.3g.tudou.com") ){  return BLACK_HOLE; }
+
     var c = i.slice(0, 6);
     return "http:/" === c ? _find_proxy(_http_map, o, i, 7) : "https:" === c ? _find_proxy(_https_map, o, i, 8) : "DIRECT"
 }
