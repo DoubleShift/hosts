@@ -29,14 +29,16 @@ function FindProxyForURL(i, o) {
     var h = o.toLowerCase();
 
 
-
-if( d(h, "ad.api.3g.youku.com") || d(h, "statis.api.3g.youku.com") ){ return BLACK_HOLE;}
-if( d(h, "agn.aty.sohu.com") || d(h, "mmg.aty.sohu.com") ){ return BLACK_HOLE;}
-if( ( d(h, "n.mark.letv.com") && s(u, "*/m3u8api/*") ) || d(h, "irs01.com") ){ return BLACK_HOLE;}
-if( d(h, "bs.da.hunantv.com" ) || d(h, "g.cn.miaozhen.com" ) ){ return BLACK_HOLE;}
-if( d(h, "lives.l.qq.com" ) || d(h, "vqq.admaster.com.cn") ) {return BLACK_HOLE; }
-if( d(h, "ad.api.3g.tudou.com") ){  return BLACK_HOLE; }
-
+    if( d(h, "asimgs.pplive.cn") || d(h, "player.as.pptv.com") ){ return BLACK_HOLE;}
+    if( d(h, "ad.api.3g.youku.com") || d(h, "statis.api.3g.youku.com") ){ return BLACK_HOLE;}
+    if( d(h, "agn.aty.sohu.com") || d(h, "mmg.aty.sohu.com") ){ return BLACK_HOLE;}
+    if( ( d(h, "n.mark.letv.com") && s(u, "*/m3u8api/*") ) || d(h, "irs01.com") ){ return BLACK_HOLE;}
+    if( d(h, "bs.da.hunantv.com" ) || d(h, "miaozhen.com" ) ){ return BLACK_HOLE;}
+    if( d(h, "lives.l.qq.com" ) || d(h, "vqq.admaster.com.cn" ) ){ return BLACK_HOLE;}
+    if( d(h,"ad.api.3g.tudou.com")  ){ return BLACK_HOLE;}
+    if( d(h,"aoodoo.feng.com")  ){ return BLACK_HOLE;}
+    if( (d(h, "admob.com")) || (d(h, "admobi.ru")) ){ return BLACK_HOLE;}
+	
     var c = i.slice(0, 6);
     return "http:/" === c ? _find_proxy(_http_map, o, i, 7) : "https:" === c ? _find_proxy(_https_map, o, i, 8) : "DIRECT"
 }
