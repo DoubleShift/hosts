@@ -1,9 +1,9 @@
 # hosts
 AD away
 
-AdAway.hosts	Create AdAway.hosts	26 days ago
-adservers.hosts	
-mvps.hosts	
-simpleu.hosts	
-video.hosts	block online video ads
-video.pac   block online video ads 
+1. AdAway.hosts	          Create AdAway.hosts	26 days ago 
+2. adservers.hosts	
+3. mvps.hosts	
+4. simpleu.hosts	
+5. video.hosts	         block online video ads
+6. video.pac             block online video ads 
