@@ -8,6 +8,7 @@ var domains = {
   "dygod.net": 1, 
   "taobao.com": 1, 
   "csdn.net": 1, 
+  "douban.com": 1, 
 
 };
 
