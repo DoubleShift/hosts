@@ -1,0 +1,306 @@
+# DoubleShift维护
+# 屏蔽APP的广告
+
+#喜马拉雅
+127.0.0.1 adse.ximalaya.com
+#http://mobile.ximalaya.com/mobile/switch/app_set?device=android 
+127.0.0.1 mobile.ximalaya.com
+127.0.0.1 ad.test.ximalaya.com
+127.0.0.1 ad.ximalaya.com
+127.0.0.1 adse.test.ximalaya.com
+127.0.0.1 adse.ximalaya.com
+127.0.0.1 adweb.test.ximalaya.com
+127.0.0.1 adweb.ximalaya.com
+
+#蜻蜓
+127.0.0.1 ad.qingting.fm
+127.0.0.1 admgr.qingting.fm
+127.0.0.1 dload.qd.qingting.fm
+127.0.0.1 logger.qingting.fm
+127.0.0.1 s.qd.qingting.fm
+127.0.0.1 s.qd.qingtingfm.com
+
+
+#花生地铁
+# 无法过滤完全
+127.0.0.1 api.metro.wifi8.com
+127.0.0.1 card.metro.wifi8.com
+127.0.0.1 x.wifi8.com
+#http://api.metro.wifi8.com/cube/panels/?c=1&ver=172
+#http://card.metro.wifi8.com:8033/v8/channel/hot?screen_pos=0&direction=1
+#http://x.wifi8.com/api/req
+
+
+#tudou
+127.0.0.1 rec.api.3g.tudou.com
+
+
+#有道云笔记
+127.0.0.1 note.youdao.com
+127.0.0.1 i.clkservice.youdao.com
+127.0.0.1 gorgon.youdao.com
+
+# Ipad
+## souhu
+127.0.0.1 agn.aty.sohu.com
+
+
+
+# 呼应网络电话
+127.0.0.1 adver.huyingad.com
+127.0.0.1 download.yxhuying.com
+
+#YouKu
+127.0.0.1 rec.api.3g.tudou.com
+127.0.0.1 ad.api.3g.tudou.com
+127.0.0.1 ad.api.3g.youku.com
+
+#Skype Ads block start
+127.0.0.1 a.ads2.msads.net
+127.0.0.1 ac3.msn.com
+127.0.0.1 ad-emea.doubleclick.net
+127.0.0.1 ads1.msn.com
+127.0.0.1 ads2.msads.net
+127.0.0.1 aka-cdn-ns.adtech.de
+127.0.0.1 b.ads2.msads.net
+127.0.0.1 cdn.adnxs.com
+127.0.0.1 cdn.atdmt.com
+127.0.0.1 ec.atdmt.com
+127.0.0.1 g.msn.com
+127.0.0.1 live.rads.msn.com
+127.0.0.1 msntest.serving-sys.com
+127.0.0.1 rad.msn.com
+127.0.0.1 secure.flashtalking.com
+127.0.0.1 secure.img-cdn.mediaplex.com
+127.0.0.1 sO.2mdn.net
+127.0.0.1 static.2mdn.net
+
+
+#微博 2016.08.14更新
+127.0.0.1 localhost
+127.0.0.1 sdkinit.taobao.com
+127.0.0.1 ads.guohead.com
+127.0.0.1 c.domob.cn
+127.0.0.1 scc.domob.cn
+127.0.0.1 resource.duopao.com
+127.0.0.1 www.umeng.com
+127.0.0.1 adimg.mobile.sina.cn
+127.0.0.1 game.weibo.com
+127.0.0.1 gw6.push.mcp.weibo.cn
+127.0.0.1 zc.biz.weibo.com
+127.0.0.1 gw5.push.mcp.weibo.cn
+127.0.0.1 game.weibo.cn
+127.0.0.1 biz.weibo.com
+127.0.0.1 zymo.mps.weibo.com
+127.0.0.1 s.alitui.weibo.com
+127.0.0.1 alitui.weibo.com
+127.0.0.1 m.game.weibo.cn
+127.0.0.1 widget.weibo.com
+127.0.0.1 c.biz.weibo.com
+127.0.0.1 c.wcpt.biz.weibo.com
+127.0.0.1 ad3.sina.com.cn
+127.0.0.1 sdkapp.mobile.sina.cn
+127.0.0.1 tjs.sjs.sinajs.cn
+127.0.0.1 wbclick.mobile.sina.cn
+127.0.0.1 d1.sina.com.cn
+127.0.0.1 ads.sina.com
+127.0.0.1 r.dmp.sina.cn
+127.0.0.1 d8.sina.com.cn
+127.0.0.1 woocall.sina.com.cn
+127.0.0.1 staticadm.leju.sina.com.cn
+127.0.0.1 1276.adsina.allyes.com
+127.0.0.1 sina.allyes.com
+127.0.0.1 oascentral.sina.com.hk
+127.0.0.1 twsina.allyes.com
+127.0.0.1 adm.leju.sina.com.cn
+127.0.0.1 contentrecommend-out.mobile.sina.cn
+127.0.0.1 oascentral.sina.com
+127.0.0.1 count.video.sina.com.cn
+127.0.0.1 d2.sina.com.cn
+127.0.0.1 ad4.sina.com
+127.0.0.1 palmnews.sina.cn
+127.0.0.1 adimg.mobile.sina.cn
+127.0.0.1 d0.sina.com.cn
+127.0.0.1 wbapp.mobile.sina.cn
+127.0.0.1 161.adsina.allyes.com
+127.0.0.1 pfp.sina.com.cn
+127.0.0.1 d00.sina.com.cn
+127.0.0.1 60.adsina.allyes.com
+127.0.0.1 beacon.sina.com.cn
+127.0.0.1 simg.sinajs.cn
+127.0.0.1 1148.adsina.allyes.com
+127.0.0.1 rs.sinajs.cn
+127.0.0.1 1100.adsina.allyes.com
+127.0.0.1 sina.yinstar.org
+127.0.0.1 ad4.sina.com.cn
+127.0.0.1 slog.sina.cn
+127.0.0.1 int.dpool.sina.com.cn
+127.0.0.1 44.adsina.allyes.com
+127.0.0.1 wbpctips.mobile.sina.cn
+127.0.0.1 s.img.mix.sina.com.cn
+127.0.0.1 appgift.sinaapp.com
+127.0.0.1 adimages.sina.com.hk
+127.0.0.1 adsina.allyes.com
+127.0.0.1 trends.mobile.sina.cn
+127.0.0.1 api.apps.sina.cn
+127.0.0.1 img.adbox.sina.com.cn
+127.0.0.1 154.adsina.allyes.com
+127.0.0.1 counter.sina.com.cn
+127.0.0.1 45.adsina.allyes.com
+127.0.0.1 d9.sina.com.cn
+127.0.0.1 appsupdate.sinaapp.com
+127.0.0.1 d7.sina.com.cn
+127.0.0.1 d6.sina.com.cn
+127.0.0.1 pfpip.sina.com
+127.0.0.1 motu.p4p.sina.com.cn
+127.0.0.1 d5.sina.com.cn
+127.0.0.1 newspush.sinajs.cn
+127.0.0.1 1251.adsina.allyes.com
+127.0.0.1 d4.sina.com.cn
+127.0.0.1 d3.sina.com.cn
+127.0.0.1 sdkinit.taobao.com
+127.0.0.1 game.weibo.com
+127.0.0.1 gw6.push.mcp.weibo.cn
+127.0.0.1 zc.biz.weibo.com
+127.0.0.1 gw5.push.mcp.weibo.cn
+127.0.0.1 game.weibo.cn
+127.0.0.1 biz.weibo.com
+127.0.0.1 zymo.mps.weibo.com
+127.0.0.1 s.alitui.weibo.com
+127.0.0.1 alitui.weibo.com
+127.0.0.1 m.game.weibo.cn
+127.0.0.1 widget.weibo.com
+127.0.0.1 c.biz.weibo.com
+127.0.0.1 c.wcpt.biz.weibo.com
+127.0.0.1 ad3.sina.com.cn
+127.0.0.1 sdkapp.mobile.sina.cn
+127.0.0.1 tjs.sjs.sinajs.cn
+127.0.0.1 wbclick.mobile.sina.cn
+127.0.0.1 d1.sina.com.cn
+127.0.0.1 ads.sina.com
+127.0.0.1 r.dmp.sina.cn
+127.0.0.1 d8.sina.com.cn
+127.0.0.1 woocall.sina.com.cn
+127.0.0.1 staticadm.leju.sina.com.cn
+127.0.0.1 1276.adsina.allyes.com
+127.0.0.1 sina.allyes.com
+127.0.0.1 oascentral.sina.com.hk
+127.0.0.1 twsina.allyes.com
+127.0.0.1 adm.leju.sina.com.cn
+127.0.0.1 contentrecommend-out.mobile.sina.cn
+127.0.0.1 oascentral.sina.com
+127.0.0.1 count.video.sina.com.cn
+127.0.0.1 d2.sina.com.cn
+127.0.0.1 ad4.sina.com
+127.0.0.1 palmnews.sina.cn
+127.0.0.1 adimg.mobile.sina.cn
+127.0.0.1 d0.sina.com.cn
+127.0.0.1 wbapp.mobile.sina.cn
+127.0.0.1 161.adsina.allyes.com
+127.0.0.1 pfp.sina.com.cn
+127.0.0.1 d00.sina.com.cn
+127.0.0.1 60.adsina.allyes.com
+127.0.0.1 beacon.sina.com.cn
+127.0.0.1 simg.sinajs.cn
+127.0.0.1 1148.adsina.allyes.com
+127.0.0.1 rs.sinajs.cn
+127.0.0.1 1100.adsina.allyes.com
+127.0.0.1 sina.yinstar.org
+127.0.0.1 ad4.sina.com.cn
+127.0.0.1 slog.sina.cn
+127.0.0.1 int.dpool.sina.com.cn
+127.0.0.1 44.adsina.allyes.com
+127.0.0.1 wbpctips.mobile.sina.cn
+127.0.0.1 s.img.mix.sina.com.cn
+127.0.0.1 appgift.sinaapp.com
+127.0.0.1 adimages.sina.com.hk
+127.0.0.1 adsina.allyes.com
+127.0.0.1 trends.mobile.sina.cn
+127.0.0.1 api.apps.sina.cn
+127.0.0.1 img.adbox.sina.com.cn
+127.0.0.1 154.adsina.allyes.com
+127.0.0.1 counter.sina.com.cn
+127.0.0.1 45.adsina.allyes.com
+127.0.0.1 d9.sina.com.cn
+127.0.0.1 appsupdate.sinaapp.com
+127.0.0.1 d7.sina.com.cn
+127.0.0.1 d6.sina.com.cn
+127.0.0.1 pfpip.sina.com
+127.0.0.1 motu.p4p.sina.com.cn
+127.0.0.1 d5.sina.com.cn
+127.0.0.1 newspush.sinajs.cn
+127.0.0.1 1251.adsina.allyes.com
+127.0.0.1 d4.sina.com.cn
+127.0.0.1 d3.sina.com.cn
+
+#本host专门用于屏蔽网易云音乐的启动页广告
+127.0.0.1 localhost
+127.0.0.1 p2.music.126.net
+127.0.0.1 p3.music.126.net
+127.0.0.1 p4.music.126.net
+
+#输入法
+127.0.0.1 localhost
+#屏蔽搜狗输入法热词.皮肤.表情.推荐.云输入
+127.0.0.1 get.sogou.com
+127.0.0.1 img.shouji.sogou.com
+127.0.0.1 input.shouji.sogou.com
+#讯飞输入法启动屏广告.应用推荐.热词.表情.更新.皮肤.留语音
+127.0.0.1 imeclient.openspeech.cn
+127.0.0.1 download.voicecloud.cn
+127.0.0.1 log.voicecloud.cn
+127.0.0.1 pinying.voicecloud.cn
+127.0.0.1 ossp.voicecloud.cn
+#百度输入法屏蔽.启动页广告.软件内推广
+127.0.0.1 r6.mo.baidu.com
+127.0.0.1 res.mi.baidu.com
+
+#百度全家桶
+127.0.0.1 localhost
+127.0.0.1 m1.baidu.com 
+127.0.0.1 mobads.baidu.com 
+127.0.0.1 mpro.baidu.com 
+127.0.0.1 mobads-logs.baidu.com 
+127.0.0.1 dl.client.baidu.com 
+127.0.0.1 a.baidu.com 
+127.0.0.1 wm.baidu.com 
+127.0.0.1 adm.baidu.com 
+127.0.0.1 baidutv.baidu.com 
+127.0.0.1 banlv.baidu.com 
+127.0.0.1 bar.baidu.com 
+127.0.0.1 c.baidu.com 
+127.0.0.1 cb.baidu.com 
+127.0.0.1 cbjs.baidu.com 
+127.0.0.1 cjhq.baidu.com 
+127.0.0.1 cpro.baidu.com 
+127.0.0.1 drmcmm.baidu.com 
+127.0.0.1 dzl.baidu.com 
+127.0.0.1 e.baidu.com 
+127.0.0.1 eiv.baidu.com 
+127.0.0.1 gimg.baidu.com 
+127.0.0.1 guanjia.baidu.com 
+127.0.0.1 hc.baidu.com 
+127.0.0.1 hm.baidu.com 
+127.0.0.1 iebar.baidu.com 
+127.0.0.1 ikcode.baidu.com 
+127.0.0.1 ma.baidu.com 
+127.0.0.1 neirong.baidu.com 
+127.0.0.1 nsclick.baidu.com 
+127.0.0.1 pos.baidu.com 
+127.0.0.1 s.baidu.com 
+127.0.0.1 sobar.baidu.com 
+127.0.0.1 sobartop.baidu.com 
+127.0.0.1 spcode.baidu.com 
+127.0.0.1 tk.baidu.com 
+127.0.0.1 tkweb.baidu.com 
+127.0.0.1 tongji.baidu.com 
+127.0.0.1 toolbar.baidu.com 
+127.0.0.1 tracker.baidu.com 
+127.0.0.1 ucstat.baidu.com 
+127.0.0.1 ulic.baidu.com 
+127.0.0.1 union.baidu.com 
+127.0.0.1 unstat.baidu.com 
+127.0.0.1 utility.baidu.com 
+127.0.0.1 utk.baidu.com 
+127.0.0.1 wangmeng.baidu.com
+

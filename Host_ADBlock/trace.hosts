@@ -1,0 +1,32 @@
+# DoubleShift 维护
+# 各种APP的统计服务
+# 
+
+# crash 分析
+127.0.0.1 e.crashlytics.com
+
+
+#腾讯
+127.0.0.1 pingma.qq.com 
+127.0.0.1 oth.eve.mdt.qq.com
+127.0.0.1 report.imtt.qq.com
+127.0.0.1 eventlog.beacon.qq.com
+127.0.0.1 lives.l.qq.com
+127.0.0.1 monitor.uu.qq.com
+127.0.0.1 omgmta1.qq.com
+127.0.0.1 log.tbs.qq.com
+
+# Umeng
+127.0.0.1 alog.umeng.com
+127.0.0.1 oc.umeng.com
+
+#秒针
+127.0.0.1 g.cn.miaozhen.com
+127.0.0.1 cm.masky.biddingx.com
+127.0.0.1 shunfei-cm.cn.miaozhen.com
+
+#广告检测
+127.0.0.1 jic.talkingdata.com
+
+#Jpush
+127.0.0.1 stats.jpush.cn
