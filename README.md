@@ -19,10 +19,16 @@ host屏蔽：主要用于路由器或者ShadowSocks上
 
 PAC屏蔽：主要用于IOS上屏蔽，设置wifi代理为这个
 > https://vokins.github.io/ad.js/ad.js
+
 > https://github.com/DoubleShift/hosts/Pac_VideoSkipAD/video.pac
 
 
 ## 屏蔽统计、广告等服务
+各种Host收集服务
+> https://github.com/StevenBlack/hosts
+
+ADblock的常用过滤列表，非hosts
+> https://filterlists.com/
 
 ## 智能DNS （翻墙+过滤广告）
 
