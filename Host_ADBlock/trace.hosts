@@ -1,6 +1,9 @@
-# DoubleShift 维护
-# 各种APP的统计服务
-# 
+###########################
+# Name:  DoubleShift
+# Email: fjjwlzd@163.com
+# Desc:  各种APP的统计服务
+# Date:  20170319
+###########################
 
 # crash 分析
 127.0.0.1 e.crashlytics.com
@@ -16,9 +19,10 @@
 127.0.0.1 omgmta1.qq.com
 127.0.0.1 log.tbs.qq.com
 
-# Umeng
+#友盟
 127.0.0.1 alog.umeng.com
 127.0.0.1 oc.umeng.com
+127.0.0.1 alog.umeng.co
 
 #秒针
 127.0.0.1 g.cn.miaozhen.com
@@ -30,3 +34,5 @@
 
 #Jpush
 127.0.0.1 stats.jpush.cn
+
+
