@@ -1,3 +1,10 @@
+###########################
+# Name:  DoubleShift
+# Email: fjjwlzd@163.com
+# Desc:  过滤视频广告
+# Date:  20170319
+###########################
+
 # Youtube
 127.0.0.1 ads.youtube.com
 127.0.0.1 s0.2mdn.net

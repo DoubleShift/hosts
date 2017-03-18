@@ -1,10 +1,11 @@
-# DoubleShift维护
-# 屏蔽APP的广告
+###########################
+# Name:  DoubleShift
+# Email: fjjwlzd@163.com
+# Desc:  过滤APP的广告
+# Date:  20170319
+###########################
 
 #喜马拉雅
-127.0.0.1 adse.ximalaya.com
-#http://mobile.ximalaya.com/mobile/switch/app_set?device=android 
-127.0.0.1 mobile.ximalaya.com
 127.0.0.1 ad.test.ximalaya.com
 127.0.0.1 ad.ximalaya.com
 127.0.0.1 adse.test.ximalaya.com
@@ -20,9 +21,23 @@
 127.0.0.1 s.qd.qingting.fm
 127.0.0.1 s.qd.qingtingfm.com
 
+#美团 20170319
+127.0.0.1 report.meituan.com
+127.0.0.1 dpmtpush.meituan.com
+127.0.0.1 mreport.meituan.com
+127.0.0.1 analytics.meituan.net
+#http://dpmtpush.dianping.com/sdklog/report
+#http://analytics.meituan.net/source/stable/mobile.js
+
+#饿了么 20170319
+127.0.0.1 app-monitor.ele.me
+127.0.0.1 abtesting.ele.me
+
+#点评 20170319
+127.0.0.1 catdot.dianping.com
+127.0.0.1 portal-portm.meituan.com
 
 #花生地铁
-# 无法过滤完全
 127.0.0.1 api.metro.wifi8.com
 127.0.0.1 card.metro.wifi8.com
 127.0.0.1 x.wifi8.com
@@ -31,26 +46,30 @@
 #http://x.wifi8.com/api/req
 
 
-#tudou
+#土豆
 127.0.0.1 rec.api.3g.tudou.com
 
 
 #有道云笔记
-127.0.0.1 note.youdao.com
 127.0.0.1 i.clkservice.youdao.com
 127.0.0.1 gorgon.youdao.com
+# 无法过滤下面2种网址
+#http://note.youdao.com/MobileAppRec/android/survey.json
+#http://m.note.youdao.com/noteproxy/autoupdate?keyfrom=note.5.8.0.android
 
-# Ipad
-## souhu
+#搜狐
 127.0.0.1 agn.aty.sohu.com
 
+#淘宝20170319
+127.0.0.1 adashx.m.taobao.com
+#http://adashx.m.taobao.com/rest/gc2?ak=null&av=7.2.0&c=null&d=WEBiyq1T9eIDACXJWsxcUKWm&sv=2.5.1.3_for_bc&t=1489867646363&is=1&_b01n15=0&_b01na=0&s=b3c6a1cf62c998d6063be72dace67ba463eb3303
 
 
 # 呼应网络电话
 127.0.0.1 adver.huyingad.com
 127.0.0.1 download.yxhuying.com
 
-#YouKu
+#优酷
 127.0.0.1 rec.api.3g.tudou.com
 127.0.0.1 ad.api.3g.tudou.com
 127.0.0.1 ad.api.3g.youku.com
@@ -234,8 +253,9 @@
 127.0.0.1 1251.adsina.allyes.com
 127.0.0.1 d4.sina.com.cn
 127.0.0.1 d3.sina.com.cn
+127.0.0.1 gslb.miaopai.com
 
-#本host专门用于屏蔽网易云音乐的启动页广告
+#网易云音乐的启动页广告
 127.0.0.1 localhost
 127.0.0.1 p2.music.126.net
 127.0.0.1 p3.music.126.net
@@ -243,16 +263,19 @@
 
 #输入法
 127.0.0.1 localhost
+
 #屏蔽搜狗输入法热词.皮肤.表情.推荐.云输入
 127.0.0.1 get.sogou.com
 127.0.0.1 img.shouji.sogou.com
 127.0.0.1 input.shouji.sogou.com
+
 #讯飞输入法启动屏广告.应用推荐.热词.表情.更新.皮肤.留语音
 127.0.0.1 imeclient.openspeech.cn
 127.0.0.1 download.voicecloud.cn
 127.0.0.1 log.voicecloud.cn
 127.0.0.1 pinying.voicecloud.cn
 127.0.0.1 ossp.voicecloud.cn
+
 #百度输入法屏蔽.启动页广告.软件内推广
 127.0.0.1 r6.mo.baidu.com
 127.0.0.1 res.mi.baidu.com
