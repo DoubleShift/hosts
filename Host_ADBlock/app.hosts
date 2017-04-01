@@ -53,6 +53,32 @@
 #有道云笔记
 127.0.0.1 i.clkservice.youdao.com
 127.0.0.1 gorgon.youdao.com
+127.0.0.1 notify3.note.youdao.com
+127.0.0.1 oimagea1.ydstatic.com
+127.0.0.1 oimagea2.ydstatic.com
+127.0.0.1 oimagea3.ydstatic.com
+127.0.0.1 oimagea4.ydstatic.com
+127.0.0.1 oimagea5.ydstatic.com
+127.0.0.1 oimagea6.ydstatic.com
+127.0.0.1 oimagea7.ydstatic.com
+127.0.0.1 oimagea8.ydstatic.com
+127.0.0.1 oimageb1.ydstatic.com
+127.0.0.1 oimageb2.ydstatic.com
+127.0.0.1 oimageb3.ydstatic.com
+127.0.0.1 oimageb4.ydstatic.com
+127.0.0.1 oimageb5.ydstatic.com
+127.0.0.1 oimageb6.ydstatic.com
+127.0.0.1 oimageb7.ydstatic.com
+127.0.0.1 oimageb8.ydstatic.com
+127.0.0.1 oimagec1.ydstatic.com
+127.0.0.1 oimagec2.ydstatic.com
+127.0.0.1 oimagec3.ydstatic.com
+127.0.0.1 oimagec4.ydstatic.com
+127.0.0.1 oimagec5.ydstatic.com
+127.0.0.1 oimagec6.ydstatic.com
+127.0.0.1 oimagec7.ydstatic.com
+127.0.0.1 oimagec8.ydstatic.com
+
 # 无法过滤下面2种网址
 #http://note.youdao.com/MobileAppRec/android/survey.json
 #http://m.note.youdao.com/noteproxy/autoupdate?keyfrom=note.5.8.0.android
